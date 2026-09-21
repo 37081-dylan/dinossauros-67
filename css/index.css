@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #e1ffdb;
+}
+
+h2{
+    text-align: center;
+    font-size: 48px;
+    color: green;
+}
+
+.textos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.texto{
+    width: 35%;
+    font-size: 30px;
+    text-align: justify;
+}
+
+.texto h3{
+    color: black;
+    font-size: 35px;
+}
+
+.foto {
+    width: 100%;
+    height: 350px;
+    object-fit: contain;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+.texto:nth-child(2) .foto {
+    width: 130%;
+    max-width: none;
+    margin-left: -15%;
+}
